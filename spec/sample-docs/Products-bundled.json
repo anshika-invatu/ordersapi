@@ -1,0 +1,123 @@
+{
+	"_id": "02ed425e-5575-4905-bd6d-62ab0045e781",
+	"docType": "products",
+	"productSKU": "ABC1234567-89",
+	"productEAN": "1234567890ADFFF",
+	"productGCN": "1234567890ADFFF234324",
+	"productName": "The blue product (Bundle)",
+	"productDescription": "Some description of the Voucher",
+	"voucherType": "giftcard,ticket,coupon,pass,membercard,exchangevoucher,loyaltypoints",
+	"isEnabledForSale": true,
+	"isBundleProduct": true,
+	"issuer": {
+		"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+		"merchantName": "Vasamuseet"
+	},
+	"salesPrice": 11.68,
+	"vatPercent": 25.00,
+	"vatAmount": 100.00,
+	"currency": "SEK",
+	"settleFullAmountOnFirstRedemption": false,
+	"settlementAmountPerRedemption": 11.68,
+	"bundleDiscountAmount": 18.50,
+	"bundleDiscountPercent": 5.00,
+	"bundledProducts": [
+		{
+			"productID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"productName": "Yellow product"
+		},
+		{
+			"productID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"productName": "Green product"
+		}
+	],
+	"resellerCommissionAmount": 18.50,
+	"resellerCommissionPercent": 5.00,
+	"resellerLimitations": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"resellerCommissionAmount": 18.50,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		},
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"resellerCommissionAmount": 25.00,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		}
+	],
+	"collectorLimitationsMerchants": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Parks and Resorts"
+		}
+	],
+	"collectorLimitationsBusinessUnits": [
+		{
+			"businessUnitID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Pressbyrån"
+		}
+	],
+	"collectorLimitationsPointOfService": [
+		{
+			"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Pressbyrån"
+		}
+	],
+	"posProductLimitations": [
+		{
+			"posProductSKU": "ABC1234567-89",
+			"posProductEAN": "1234567890ADFFF",
+			"posProductName": "The blue product",
+			"posProductDescription": "Description of the product"
+		}
+	],
+	"redemptionRules": {
+		"redemptionCodeIsRequired": false,
+		"redemptionCode": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+		"salesPersonCodeIsRequired": true
+	},
+	"productValue": {
+		"valueType": "monetary,discount,exchange",
+		"spend": 1,
+		"redemptionsTotal": 1,
+		"fixedAmount": 11.68,
+		"currency": "SEK",
+		"ratioPercent": 25.00
+	},
+	"validPeriod": {
+		"salesPeriodStart": "2017-10-16T00:00:00Z",
+		"salesPeriodEnd": "2017-10-16T00:00:00Z",
+		"validFromDate": "2017-10-16T00:00:00Z",
+		"validToDate": "2017-10-16T23:59:59Z",
+		"validDaysOfWeek": "Mo,Tu,We,Th,Fr,Sa,Su",
+		"validFromTime": "08:00:00",
+		"validToTime": "14:00:00"
+	},
+	"productSellLimitTotal": 100,
+	"productSellLimitLeft": 12,
+	"categories": [
+		"gift certificates",
+		"do good"
+	],
+	"tags": [
+		"home",
+		"green"
+	],
+	"conditions": "Some text about special conditions in text about how to use the voucher",
+	"campaignCode": "Some magic - code 1234",
+	"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Flowers_Rose.jpg",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

@@ -1,0 +1,65 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "posSessions",
+	"partitionKey": "Same as _id",
+	"merchantID": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"merchantName": "My coolcompany",
+	"pointOfServiceID": "3cc69cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"pointOfServiceName": "My EV charging station A101",
+	"componentID": "5560e2d1-c859-4dbe-9035-2a27bb333cf5",
+	"componentTypeCode": "bin,evse,connector,relay,input,qrscanner,sensor,mdbcashless",
+	"componentName": "Connector SE101B",
+	"iconImageURL": "https://media.vourity.com/vendingbin.png",
+	"posSessionReferenceID": "jkh236t3h2dhd som ID string from the POS",
+	"sessionType": "evcharging",
+	"sessionStartDate": "2021-01-16T14:05:36Z",
+	"sessionStopDate": "2021-01-16T15:18:21Z",
+	"sessionExpiryDate": "2021-01-16T15:18:21Z",
+	"sessionStateUpdatedDate": "2021-04-14T15:18:12Z",
+	"sessionStateCode": "pending,starting,started,stopping,finished,canceled,error",
+	"customerID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"paymentStatusCode": "authorized,paid,denied",
+	"pspType": "swish",
+	"paymentProviderAccountID": "451fdac7-2257-499c-b15f-05a7e8599466",
+	"paymentProviderAccountName": "Name of the account",
+	"pspLogoImageURL": "https://media.vourity.com/swish.png",
+	"retailTransactionID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	"totalAmountInclVat": 123456789.00,
+	"totalVatAmount": 2.35,
+	"vatPercent": 25,
+	"vatClass": "SEVAT1",
+	"accessTokenHash": "fskjfhfkjhsfjkhfsdjkfs",
+	"currency": "SEK",
+	"salesChannel": {
+		"salesChannelName": "My vending machine 51",
+		"salesChannelTypeCode": "pos,webshop,quickshop,merchantapp,consumerapp,api",
+		"salesChannelID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6"
+	},
+	"productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+	"productName": "Yellow product",
+	"salesPrice": 123456789.00,
+	"priceType": "fixedPrice,pricePerUnit,priceGroup,freeOfCharge",
+	"unitCode": "kWh,seconds,minutes,hours,liter",
+	"priceGroupID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"priceGroupName": "Basic prices",
+	"usageRecords": [
+		{
+			"usageStartDate": "2021-10-16T14:05:36Z",
+			"usageStopDate": "2021-10-16T15:18:12Z",
+			"usageStartValue": 123456,
+			"usageStopValue": 21312323,
+			"usageTotalVolume": 12333,
+			"unitCode": "kWh"
+		}
+	],
+	"connectorNumber": 1,
+	"evseNumber": 1,
+	"customerInfo": "7512",
+	"notes": [
+		{
+			"note": "The customer is happy"
+		}
+	],
+	"createdDate": "2021-01-16T14:05:36Z",
+	"updatedDate": "2021-01-16T15:18:12Z"
+}

@@ -1,0 +1,471 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "pointOfService",
+	 "partitionKey": "merchantID",
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "businessUnitID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "parentPointOfServiceID": "33358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "posGroupID": "987bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "posGroupName": "Name of the group",
+	 "siteMenuID": "8450e19f-c0bf-4faa-be64-f9a9e2d68865",
+	 "currency": "SEK",
+	 "isEnabled": true,
+	 "isOpenForSale": true,
+	 "isOpenForSaleAutomatic": true,
+	 "openForSaleAutomaticTime": "24:00:00",
+	 "notOpenForSaleText": "The shop is closed. Plese come back later",
+	 "isInMaintenanceMode": false,
+	 "maintenanceModeText": "Sorry for the inconvenience we are doing some maintenance on our shop. Come back soon.",
+	 "pointOfServiceName": "Kassa 1",
+	 "pointOfServiceDescription": "The main POS",
+	 "pointOfServiceTypeID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+	 "pointOfServiceTypeName": "Vourity Access Point",
+	 "pointOfServiceCategoryID": "5510e2d1-c859-4dbe-9035-2a27bb333cf5",
+	 "pointOfServiceCategoryName": {
+		 "sv-SE": {
+			 "text": "html encode ??? This is the text in some language"
+		},
+		 "en-US": {
+			 "text": "Vending Machine"
+		}
+	},
+	 "pointOfServiceCategoryIconImageURL": "https://media.vourity.com/blueburger1.png",
+	 "deviceHardwareID": "FTHY-F345-FF67",
+	 "deviceMACID": "FTHY-F345-FF67",
+	 "deviceAzureID": "FTHY-F345-FF67",
+	 "deviceAzureConnectionString": "HostName=vourity-iothub-eu2.azure-devices.net;DeviceId=40a50a58-e4bb-46c3-85c5-8c8c555603ef;SharedAccessKey=U/OrsGLEWUlQ8CQOQ2THx3uMC5o+0tkHskylWaxR7+0=",
+	 "serialNumber": "ABC123",
+	 "deviceID": "9478e14e-2880-4933-8e40-f5044f1b1145",
+	 "location": [
+		{
+			 "streetRow1": "Mega street 5",
+			 "streetRow2": "Mega street 5",
+			 "zip": "12233JJHH",
+			 "city": "Stockholm",
+			 "state": "NYC",
+			 "country": "Sweden",
+			 "contactEmail": "test.user@vourity.com",
+			 "contactPhone": "+46701234567890",
+			 "locationText": "Floor 1",
+			 "latitude": -78.75,
+			 "longitude": 20.412345
+		}
+	],
+	 "logoImageURL": "https://media.vourity.com/logoburger.png",
+	 "mainImageURL": "https://media.vourity.com/bigburger.png",
+	 "sitePhotoImageURL": "https://media.vourity.com/bigburger.png",
+	 "products": [
+		{
+			 "productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "priority": 1,
+			 "conditions": "Some text about special conditions in text about how to use the voucher",
+			 "imageURL": "https://media.vourity.com/blueburger.png",
+			 "isEnabledForSale": true,
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "salesPrice": 123456789.00,
+			 "vatPercent": 25.00,
+			 "vatAmount": 2.35,
+			 "vatClass": "VAT1",
+			 "currency": "SEK",
+			 "spendOnRedemption": 1,
+			 "spendOnRedemptionAmount": 1234.45,
+			 "salesPeriodStart": "2017-10-16T00:00:00Z",
+			 "salesPeriodEnd": "2017-10-16T00:00:00Z",
+			 "isDefaultProduct": true,
+			 "doActions": false,
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			 "productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "productName": "The green product",
+			 "productDescription": "Some description of the Product",
+			 "priority": 2,
+			 "conditions": "Some text about special conditions in text about how to use the voucher",
+			 "imageURL": "https://media.vourity.com/greenburger.png",
+			 "isEnabledForSale": true,
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "salesPrice": 123456789.00,
+			 "vatPercent": 25.00,
+			 "vatAmount": 2.35,
+			 "vatClass": "VAT1",
+			 "currency": "SEK",
+			 "spendOnRedemption": 5,
+			 "salesPeriodStart": "2017-10-16T00:00:00Z",
+			 "salesPeriodEnd": "2017-10-16T00:00:00Z",
+			 "isDefaultProduct": false,
+			 "doActions": false,
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		}
+	],
+	 "openHours": [
+		{
+			 "weekday": "Mo",
+			 "openFrom": "08:00:00",
+			 "openTo": "17:00:00"
+		},
+		{
+			 "weekday": "Tu",
+			 "openFrom": "08:00:00",
+			 "openTo": "17:00:00"
+		}
+	],
+	 "settings": [
+		{
+			 "key": "Server1IP",
+			 "value": "localhost"
+		},
+		{
+			 "key": "Server2IP",
+			 "value": "localhost"
+		}
+	],
+	 "operationalSettings": {
+		 "isSoundEnabled": true,
+		 "isOfflineModeEnabled": true,
+		 "openDoorRelay1Timer": 102,
+		 "camera": "front"
+	},
+	 "operationalModes": [
+		{
+			 "button": 1,
+			 "functionCode": "expressMode",
+			 "visibleFrom": "08:00:00",
+			 "visibleTo": "17:00:00",
+			 "displayText": "Please scan and validate your Voucher"
+		},
+		{
+			 "button": 2,
+			 "functionCode": "manualScan",
+			 "visibleFrom": "08:00:00",
+			 "visibleTo": "17:00:00",
+			 "displayText": "Please scan and validate your Voucher"
+		}
+	],
+	 "redemptionActions": [
+		{
+			 "actionCode": "openDoor"
+		},
+		{
+			 "actionCode": "printLog"
+		}
+	],
+	 "actions": [
+		{
+			 "port": "usb1",
+			 "actionCode": "openDoor",
+			 "actionName": "Open door",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		},
+		{
+			 "port": "usb2",
+			 "actionCode": "beep",
+			 "actionName": "Beep the buzzer",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		},
+		{
+			 "port": "serial1",
+			 "actionCode": "redeem",
+			 "actionName": "Redeem Voucher",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		},
+		{
+			 "port": "serial2",
+			 "actionCode": "checkin",
+			 "actionName": "Check In",
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+			 "pointofServiceName": "Main door"
+		}
+	],
+	 "notes": "The POS is very popular",
+	 "timeZone": "CET",
+	 "mobileNetwork": {
+		 "simCardID": "c7d6280f-df3f-4bb4-a1a1-790c49457ba1",
+		 "ICCID": 8988303000000566035,
+		 "IMSI": 295050900004987,
+		 "isEnabled": true,
+		 "APN": "em",
+		 "IMEI": 8688080350732200,
+		 "MSISDN": "+423663910185045",
+		 "operator": "emnify"
+	},
+	 "webShops": [
+		{
+			 "webShopID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "webShopName": "Shop 1",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			 "webShopID": "89c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "webShopName": "Shop 2",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours"
+		}
+	],
+	 "quickShops": [
+		{
+			 "mobilePaymentCodeID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "mobilePaymentCodeName": "QuickShop 1",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours",
+			 "actions": [
+				{
+					 "actionCode": "openDoor2",
+					 "actionName": {
+						 "sv-SE": {
+							 "text": "Action Name in some language"
+						},
+						 "en-US": {
+							 "text": "Action Name in some language"
+						}
+					},
+					 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+					 "pointOfServiceName": "Door 2",
+					 "actionParameters": {
+						 "timerSeconds": {
+							 "name": "Timer value in seconds",
+							 "type": "decimal",
+							 "value": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			 "mobilePaymentCodeID": "89c1938e-88a1-4141-b0bc-4c280a7379b6",
+			 "mobilePaymentCodeName": "QuickShop 2",
+			 "scheduleID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "scheduleName": "Office hours"
+		}
+	],
+	 "partnerNetworkID": "4561938e-88a1-4141-b0bc-4c280a7379b6",
+	 "accessControl": {
+		 "siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+		 "siteName": "Stockholm Office",
+		 "zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+		 "zoneName": "Zone Upper floor",
+		 "actions": [
+			{
+				 "actionCode": "openDoor2",
+				 "actionName": "Open door number 2",
+				 "pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				 "pointOfServiceName": "Door 2",
+				 "actionParameters": {
+					 "timerSeconds": {
+						 "name": "Timer value in seconds",
+						 "type": "decimal",
+						 "value": 5
+					}
+				}
+			}
+		],
+		 "components": [
+			{
+				 "componentID": "631b917c-9971-4ec4-89b5-0ab80f2607ae",
+				 "componentName": {
+					 "sv-SE": {
+						 "text": "html encode ??? This is the text in some language"
+					},
+					 "en-US": {
+						 "text": "This is the text in some language"
+					}
+				},
+				 "commands": {
+					 "openDoor": {
+						 "commandValue": 11,
+						 "commandValueUnit": "kW,pulses,liters,minutes",
+						 "commandDurationTime": 500,
+						 "commandDurationTimeUnit": "milliseconds",
+						 "dataType": "decimal,integer,string,boolean,datetime,uri",
+						 "minValue": 0,
+						 "maxValue": 250,
+						 "commandName": {
+							 "sv-SE": {
+								 "text": "html encode ??? This is the text in some language"
+							},
+							 "en-US": {
+								 "text": "This is the text in some language"
+							}
+						},
+						 "iconImageURL": "https://media.vourity.com/vendingbin.png"
+					}
+				}
+			}
+		]
+	},
+	 "moduleTemplateID": "838b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "moduleTemplateVersion": "1.0.0",
+	 "moduleTemplateName": {
+		 "sv-SE": {
+			 "text": "Name of the template in some language"
+		},
+		 "en-US": {
+			 "text": "Name of the template in some language"
+		}
+	},
+	 "rating": 4.6,
+	 "totalRatingValue": 516,
+	 "numberofRatings": 112,
+	 "ratingDetails": {
+		 "numberofRatings1": 64,
+		 "numberofRatings2": 12,
+		 "numberofRatings3": 78,
+		 "numberofRatings4": 37,
+		 "numberofRatings5": 562
+	},
+	 "linkedPOS": [
+		{
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "pointofServiceName": "Main door",
+			 "pointOfServiceCategoryID": "5510e2d1-c859-4dbe-9035-2a27bb333cf5",
+			 "pointOfServiceCategoryName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "Vending Machine"
+				}
+			},
+			 "logoImageURL": "https://media.vourity.com/logoburger.png",
+			 "mainImageURL": "https://media.vourity.com/bigburger.png"
+		},
+		{
+			 "pointOfServiceID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			 "pointofServiceName": "Main door",
+			 "pointOfServiceCategoryID": "5510e2d1-c859-4dbe-9035-2a27bb333cf5",
+			 "pointOfServiceCategoryName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "Vending Machine"
+				}
+			},
+			 "logoImageURL": "https://media.vourity.com/logoburger.png",
+			 "mainImageURL": "https://media.vourity.com/bigburger.png"
+		}
+	],
+	 "wakeUpModes": [
+		{
+			 "wakeUpSource": "mdb",
+			 "wakeUpSourceName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "Vending Machine"
+				}
+			},
+			 "sleepMode": true,
+			 "deepSleepMode": true
+		},
+		{
+			 "wakeUpSource": "digitalIO",
+			 "wakeUpSourceName": {
+				 "sv-SE": {
+					 "text": "html encode ??? This is the text in some language"
+				},
+				 "en-US": {
+					 "text": "Vending Machine"
+				}
+			},
+			 "sleepMode": true,
+			 "deepSleepMode": true
+		}
+	],
+	 "preAuthorizationAmount": 100,
+	 "preAuthorizationCurrency": "SEK",
+	 "paymentProviderAccounts": {
+		 "swish": {
+			 "paymentProviderAccountID": "451fdac7-2257-499c-b15f-05a7e8599466",
+			 "paymentProviderAccountName": "Name of the account",
+			 "pspLogoImageURL": "https://media.vourity.com/swish.png"
+		},
+		 "creditcard": {
+			 "paymentProviderAccountID": "451fdac7-2257-499c-b15f-05a7e8599466",
+			 "paymentProviderAccountName": "Name of the account",
+			 "pspLogoImageURL": "https://media.vourity.com/swish.png"
+		}
+	},
+	 "createdDate": "2019-08-16T14:05:36Z",
+	 "updatedDate": "2019-08-16T15:18:12Z"
+}

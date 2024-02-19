@@ -1,0 +1,19 @@
+{
+    "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+    "docType": "exchangeRates",
+    "exchangeRates": {
+        "to": {
+            "EUR": 0.01,
+            "SEK": 0.10,
+            "USD": 0.0115
+        },
+        "from": {
+            "EUR": 100.00,
+            "SEK": 10.00,
+            "USD": 115.00
+        }
+    },
+    "base": "VOC",
+    "createdDate": "2018-05-31T18:53:24Z",
+    "updatedDate": "2018-10-16T15:18:12Z"
+}

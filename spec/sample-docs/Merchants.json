@@ -1,0 +1,82 @@
+{
+	"_id": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"docType": "merchants",
+	"merchantName": "Starstruck Coffee",
+	"merchantDescription": "Nice museeum",
+	"companyRegistrationNumber": "12231323-234234",
+	"vatNumber": "SE1239812391273-33AAJ",
+	"merchantCurrency": "EUR",
+	"isEnabled": true,
+	"isCanceled": false,
+	"blockchainWallet": "$2a$05$RyedoJxf49DXe/BoDsCXNuoKY4DuSOElJL62LMAMg18Z.gW59uTaG",
+	"walletAmount": 96.00,
+	"walletCurrency": "VOC",
+	"deliveryAddress": [
+		{
+			"streetRow1": "Mega street 5",
+			"streetRow2": "Mega street 5",
+			"zip": "12233JJHH",
+			"city": "Stockholm",
+			"state": "NYC",
+			"country": "Sweden"
+		}
+	],
+	"invoiceAddress": [
+		{
+			"streetRow1": "Mega street 5",
+			"streetRow2": "Mega street 5",
+			"zip": "12233JJHH",
+			"city": "Stockholm",
+			"state": "NYC",
+			"country": "Sweden"
+		}
+	],
+	"pricePlan": {
+		"_id": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+		"pricePlanName": "Basic",
+		"startBillingDate": "2017-10-16T14:05:36Z",
+		"endBillingDate": "2017-10-16T14:05:36Z",
+		"feeStartupAmount": 0,
+		"feeMonthlySubscriptionBaseAmount": 99.00,
+		"feeMonthlySubscriptionExtraPerBusinessUnitAmount": 15.00,
+		"feeMonthlySubscriptionExtraPerUserUnitAmount": 18.50,
+		"monthlySubscriptionTransactionsCounter": [
+			{
+				"feeMonthlySubscriptionAmount": 10.00,
+				"transactionsCountUpTo": 100
+			},
+			{
+				"feeMonthlySubscriptionAmount": 20,
+				"transactionsCountUpTo": 200
+			}
+		],
+		"monthlySubscriptionActiveVouchersCounter": [
+			{
+				"feeMonthlySubscriptionAmount": 10.00,
+				"vouchersCountUpTo": 100
+			},
+			{
+				"feeMonthlySubscriptionAmount": 20,
+				"vouchersCountUpTo": 200
+			}
+		],
+		"feePerTransactionPercent": 4.75,
+		"feePerTransactionAmount": 2.01,
+		"payoutForExpiredVouchersPercent": 80.00,
+		"feeCurrency": "SEK",
+		"vatPercent": 25.00
+	},
+	"payoutPSP": "Stripe",
+	"payoutPSPAccount": "sdkjhdqw873djqw",
+	"transactionsLastMonth": 1234,
+	"transactionsLastCount": "2017-10-16T14:05:36Z",
+	"businessUnitsLastMonth": 2,
+	"businessUnitsLastCount": "2017-10-16T14:05:36Z",
+	"vouchersActiveLastMonth": 1234,
+	"vouchersActiveLastCount": "2017-10-16T14:05:36Z",
+	"usersLastMonth": 2,
+	"usersLastCount": "2017-10-16T14:05:36Z",
+	"canceledDate": "2017-10-16T14:05:36Z",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

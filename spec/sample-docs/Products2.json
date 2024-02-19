@@ -1,0 +1,112 @@
+{
+	"_id": "c825922e-6dd5-494c-b539-9325fdff937e",
+	"docType": "products",
+	"productSKU": "ABC1234567-89",
+	"productEAN": "1234567890ADFFF",
+	"productGCN": "1234567890ADFFF234324",
+	"productName": "Lunch at the Grand",
+	"productDescription": "Some description of the Voucher, from product description",
+	"voucherType": "giftcard,ticket,coupon,pass,membercard,exchangevoucher,loyaltypoints",
+	"isEnabledForSale": true,
+	"issuer": {
+		"merchantID": "589bd6b3-b6b0-4984-b615-a8643c0f14c6",
+		"merchantName": "Mega city"
+	},
+	"salesPrice": 35.00,
+	"vatPercent": 25.00,
+	"vatAmount": 4.69,
+	"currency": "SEK",
+	"settleFullAmountOnFirstRedemption": false,
+	"settlementAmountPerRedemption": 11.68,
+	"bundleDiscountAmount": 18.50,
+	"bundleDiscountPercent": 5.00,
+	"resellerCommissionAmount": 18.50,
+	"resellerCommissionPercent": 5.00,
+	"resellerLimitations": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"resellerCommissionAmount": 18.50,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		},
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"resellerCommissionAmount": 25.00,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		}
+	],
+	"collectorLimitationsMerchants": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Parks and Resorts"
+		}
+	],
+	"collectorLimitationsBusinessUnits": [
+		{
+			"businessUnitID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Pressbyrån"
+		}
+	],
+	"collectorLimitationsPointOfService": [
+		{
+			"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Pressbyrån"
+		}
+	],
+	"posProductLimitations": [
+		{
+			"posProductSKU": "ABC1234567-89",
+			"posProductEAN": "1234567890ADFFF",
+			"posProductName": "The blue product",
+			"posProductDescription": "Description of the product"
+		}
+	],
+	"redemptionRules": {
+		"redemptionCodeIsRequired": false,
+		"redemptionCode": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+		"salesPersonCodeIsRequired": true
+	},
+	"productValue": {
+		"valueType": "monetary,discount,exchange",
+		"spend": 1,
+		"redemptionsTotal": 1,
+		"fixedAmount": 11.68,
+		"currency": "SEK",
+		"ratioPercent": 25.00
+	},
+	"validPeriod": {
+		"salesPeriodStart": "2017-10-16T00:00:00Z",
+		"salesPeriodEnd": "2018-10-16T00:00:00Z",
+		"validFromDate": "2017-10-16T00:00:00Z",
+		"validToDate": "2018-10-16T23:59:59Z",
+		"validDaysOfWeek": "Mo,Tu,We,Th,Fr,Sa,Su",
+		"validFromTime": "14:00:00",
+		"validToTime": "17:00:00"
+	},
+	"productSellLimitTotal": 100,
+	"productSellLimitLeft": 12,
+	"categories": [
+		"gift certificates",
+		"do good"
+	],
+	"tags": [
+		"home",
+		"green"
+	],
+	"conditions": "All you can eat buffet only between 14:00 - 17:00",
+	"campaignCode": "Some magic - code 1234",
+	"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/SPA.jpg",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

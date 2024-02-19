@@ -1,0 +1,112 @@
+{
+	"_id": "a29b2d6d-917a-4be8-b539-c006ef8dd861",
+	"docType": "products",
+	"productSKU": "ABC1234567-89",
+	"productEAN": "1234567890ADFFF",
+	"productGCN": "1234567890ADFFF234324",
+	"productName": "Coffee card - 10",
+	"productDescription": "Get 10 cups of coffee, only pay for 9.",
+	"voucherType": "giftcard,ticket,coupon,pass,membercard,exchangevoucher,loyaltypoints",
+	"isEnabledForSale": true,
+	"issuer": {
+		"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+		"merchantName": "Starstruck Coffee"
+	},
+	"salesPrice": 11.00,
+	"vatPercent": 25.00,
+	"vatAmount": 2.35,
+	"currency": "SEK",
+	"settleFullAmountOnFirstRedemption": false,
+	"settlementAmountPerRedemption": 11.68,
+	"bundleDiscountAmount": 18.50,
+	"bundleDiscountPercent": 5.00,
+	"resellerCommissionAmount": 18.50,
+	"resellerCommissionPercent": 5.00,
+	"resellerLimitations": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Åre",
+			"resellerCommissionAmount": 18.50,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		},
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Turistbutiken i Malmö",
+			"resellerCommissionAmount": 25.00,
+			"resellerCommissionPercent": 5.00,
+			"currency": "SEK"
+		}
+	],
+	"collectorLimitationsMerchants": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Parks and Resorts"
+		}
+	],
+	"collectorLimitationsBusinessUnits": [
+		{
+			"businessUnitID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Pressbyrån"
+		}
+	],
+	"collectorLimitationsPointOfService": [
+		{
+			"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Pressbyrån"
+		}
+	],
+	"posProductLimitations": [
+		{
+			"posProductSKU": "ABC1234567-89",
+			"posProductEAN": "1234567890ADFFF",
+			"posProductName": "The blue product",
+			"posProductDescription": "Description of the product"
+		}
+	],
+	"redemptionRules": {
+		"redemptionCodeIsRequired": false,
+		"redemptionCode": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+		"salesPersonCodeIsRequired": true
+	},
+	"productValue": {
+		"valueType": "monetary,discount,exchange",
+		"spend": 1,
+		"redemptionsTotal": 1,
+		"fixedAmount": 11.68,
+		"currency": "SEK",
+		"ratioPercent": 25.00
+	},
+	"validPeriod": {
+		"salesPeriodStart": "2017-10-16T00:00:00Z",
+		"salesPeriodEnd": "2018-10-16T00:00:00Z",
+		"validFromDate": "2017-10-16T00:00:00Z",
+		"validToDate": "2018-10-16T23:59:59Z",
+		"validDaysOfWeek": "Mo,Tu,We,Th,Fr,Sa,Su",
+		"validFromTime": "08:00:00",
+		"validToTime": "14:00:00"
+	},
+	"productSellLimitTotal": 100,
+	"productSellLimitLeft": 12,
+	"categories": [
+		"gift certificates",
+		"do good"
+	],
+	"tags": [
+		"home",
+		"green"
+	],
+	"conditions": "Only for Coffee lovers.",
+	"campaignCode": "Some magic - code 1234",
+	"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Coffee_500px.jpg",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

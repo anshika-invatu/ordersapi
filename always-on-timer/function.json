@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "name": "alwaysOnTimer",
+            "direction": "in",
+            "type": "timerTrigger",
+            "runOnStartup": true,
+            "schedule": "0 */4 * * * *"
+        }
+    ]
+}

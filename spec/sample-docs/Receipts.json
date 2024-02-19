@@ -1,0 +1,170 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "receipts",
+	"partitionKey": "Same as _id",
+	"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"merchantName": "Vasamuseet",
+	"merchantCompanyRegistrationNumber": "12231323-234234",
+	"merchantVatNumber": "SE1239812391273-33AAJ",
+	"merchantLogoImageURL": "https://media.vourity.com/vourity_logo.png",
+	"businessUnitID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"businessUnitName": "Gröna lund",
+	"pointOfServiceID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"pointOfServiceName": "Kassa 1",
+	"orderID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	"orderCounter": 5,
+	"retailTransactionID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	"retailTransactionDate": "2020-10-16T14:05:36Z",
+	"receiptDate": "2021-02-16T14:05:36Z",
+	"receiptType": "new,copy,training",
+	"receiptSequenceNumber": 123456788,
+	"countryCode": "SE",
+	"email": "test.user@vourity.com",
+	"phone": "+46701234567890",
+	"merchantAddress": {
+		"streetRow1": "Mega street 5",
+		"streetRow2": "Mega street 5",
+		"zip": "12233JJHH",
+		"city": "Stockholm",
+		"state": "NYC",
+		"country": "Sweden"
+	},
+	"salesPerson": {
+		"salesPersonID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+		"salesPersonName": "Sales 1",
+		"salesPersonCode": "T1234"
+	},
+	"salesChannel": {
+		"salesChannelName": "My vending machine 51",
+		"salesChannelTypeCode": "pos,webshop,quickshop,api",
+		"pointOfServiceID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+		"pointOfServiceName": "Kassa 1",
+		"serialNumber": "ABC123",
+		"webShopID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+		"webShopTitle": "Vasamuseet"
+	},
+	"currency": "SEK",
+	"totalAmountInclVat": 123456789.00,
+	"totalVatAmount": 2.35,
+	"vatSummary": [
+		{
+			"vatClass": "SEVAT1",
+			"vatPercent": 25,
+			"vatAmount": 1000
+		},
+		{
+			"vatClass": "SEVAT2",
+			"vatPercent": 12,
+			"vatAmount": 2000
+		},
+		{
+			"vatClass": "SEVAT3",
+			"vatPercent": 6,
+			"vatAmount": 3000
+		}
+	],
+	"lineItems": [
+		{
+			"lineItemTypeCode": "sales,return,payment,vat,rounding,voucher,discount,loyaltyReward,miscFee,information",
+			"lineText": "Fanta bottle 33cl",
+			"quantity": 1,
+			"pricePerUnit": 12334.45,
+			"unitCode": "ea",
+			"amount": 100,
+			"vatClass": "SEVAT1",
+			"vatAmount": 20,
+			"vatPercent": 25
+		},
+		{
+			"lineItemTypeCode": "sales,return,payment,vat,rounding,voucher,discount,loyaltyReward,miscFee,information",
+			"lineText": "Sandwich with sallad",
+			"quantity": 1,
+			"pricePerUnit": 45.12,
+			"unitCode": "st",
+			"amount": 100,
+			"vatClass": "SEVAT1",
+			"vatAmount": 17,
+			"vatPercent": 12
+		}
+	],
+	"payments": [
+		{
+			"amount": 24.99,
+			"pspType": "creditcard",
+			"transactionData": {
+				"Statuses": "[{\"statusDescription\":\"Transaction started\",\"statusValue\":1},{\"statusDescription\":\"GetCard Screen Displayed\",\"statusValue\":13},{\"statusDescription\":\"Card type CTLS\",\"statusValue\":7},{\"statusDescription\":\"Host Approved\",\"statusValue\":17},{\"statusDescription\":\"Transaction Approved\",\"statusValue\":2},{\"statusDescription\":\"Transaction Finished\",\"statusValue\":12}]",
+				"amountCashback": 0,
+				"amountGratuity": 0,
+				"amountTrans": 500,
+				"authorisationCode": "283930",
+				"cardExpiryDate": "2212",
+				"cardPan": "************7512",
+				"cardPanSequenceNumber": "001",
+				"cardScheme": "Visa",
+				"cardType": "CTLS",
+				"cvmPinVerified": false,
+				"cvmSigRequired": false,
+				"emvAid": "A0000000031010",
+				"emvCryptogram": "339DDC56BD4108C1",
+				"emvCryptogramType": "ARQC",
+				"emvTsi": "0000",
+				"emvTvr": "0000000000",
+				"errorCode": "not_declined",
+				"errorText": "Approved",
+				"fingerPrint": "ff5f51c6c365f4b41f840ea8b9d9dd3cee1ad37821f5aced173d3fdf77aabe24",
+				"language": "",
+				"merchantId": "58EDB57E",
+				"merchantReference": "CARD",
+				"paymentId": "AzDfCNxqmbprcwS4YLQfEzxg",
+				"receiptNumber": "116",
+				"reference": "",
+				"responseCode": "00",
+				"retrievalReferenceNumber": "000116600001",
+				"shortPaymentId": "JZGPZ1R1D",
+				"softwareVersion": "1.00.27.4987",
+				"stan": "120",
+				"terminalId": "40006260",
+				"transApproved": "true",
+				"transCancelled": "false",
+				"transCurrencyCode": "SEK",
+				"transType": "SALE",
+				"uti": "C7947A1F-B64E-40E1-926C-D500960DFC66"
+			}
+		},
+		{
+			"amount": 34.25,
+			"pspType": "swish",
+			"transactionData": {
+				"id": "AB23D7406ECE4542A80152D909EF9F6B",
+				"payeePaymentReference": "0123456789",
+				"paymentReference": "6D6CD7406ECE4542A80152D909EF9F6B",
+				"callbackUrl": "https://example.com/api/swishcb/paymentrequests",
+				"payerAlias": "07211234567",
+				"payeeAlias": "1231234567890",
+				"amount": "100",
+				"currency": "SEK",
+				"message": "Kingston USB Flash Drive 8 GB",
+				"status": "PAID",
+				"dateCreated": "2015-02-19T22:01:53+01:00",
+				"datePaid": "2015-02-19T22:03:53+01:00"
+			}
+		}
+	],
+	"customer": {
+		"socialSecurityNumber": "19990909-1999",
+		"email": "your@email.com",
+		"phone": "+46-111-111-1111"
+	},
+	"controlUnit": {
+		"controlUnitID": "RIHTT102710007088",
+		"controlUnitCode": "BGXOV2QOHHILXHLPHHXRAYZEKGFNC2BD;"
+	},
+	"texts": {
+		"header1": "Welcome back",
+		"header2": "Welcome back",
+		"footer1": "Save the receipt",
+		"footer2": "Save the receipt"
+	},
+	"createdDate": "2021-02-16T14:05:36Z",
+	"updatedDate": "2021-02-16T15:18:12Z"
+}

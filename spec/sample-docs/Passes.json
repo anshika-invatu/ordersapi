@@ -1,0 +1,27 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "passes",
+	"walletID": "12358cfa-063d-4f5c-be5d-b90cfb64d456",
+	"passToken": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"passCode": "JHGASD32EU",
+	"cardNumber": "62142837129873893=1983719381273",
+	"passTitle": "London city card",
+	"passDescription": "Some description of the Pass",
+	"productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+	"isEnabled": true,
+	"issuer": {
+		"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+		"merchantName": "London tourist office"
+	},
+	"smartCode": "$2a$05$RyedoJxf49DXe/BoDsCXNuoKY4DuSOElJL62LMAMg18Z.gW59uTaG",
+	"validFromDate": "2017-10-16T00:00:00Z",
+	"validToDate": "2017-10-16T23:59:59Z",
+	"imageURL": "http://media.vourity.com/logoburger.png",
+	"passPinCode": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	"passSequenceNumber": 123456788,
+	"passAmount": 65.00,
+	"currency": "VOC",
+	"passAmountExpiryDate": "2017-10-16T14:05:36Z",
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

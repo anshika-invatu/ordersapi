@@ -1,0 +1,18 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "redeemVoucher",
+	"passToken": "45658cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"voucherToken": "e845922e-6dd5-494c-b539-9325fdff937e",
+	"redemptionsCount": 1,
+	"fixedAmount": 96.00,
+	"currency": "SEK",
+	"redemptionCode": "fasfha4wqrer89823749874",
+	"posProductSKU": "ABC1234567-89",
+	"posProductEAN": "1234567890ADFFF",
+	"productGCN": "1234567890ADFFF234324",
+	"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"salesPersonCode": "12345",
+	"businessUnitID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	"voucherPinCode": "354352435235"
+}

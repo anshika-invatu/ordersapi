@@ -1,0 +1,62 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "wallets",
+	 "walletName": "My Wallet",
+	 "walletDescription": "Some description of the wallet",
+	 "isEnabled": true,
+	 "isLocked": false,
+	 "isLockedReason": "We suspect fraud",
+	 "validFromDate": "2017-10-16T00:00:00Z",
+	 "validToDate": "2017-10-16T23:59:59Z",
+	 "email": "test.user3@vourity.com",
+	 "vourityID": "ABC8172123",
+	 "mobilePhone": "+46701234567890",
+	 "walletHolder": {
+		 "country": "SE",
+		 "password": "$2a$05$RyedoJxf49DXe/BoDsCXNuoKY4DuSOElJL62LMAMg18Z.gW59uTaG",
+		 "salt": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+		 "lastLoginDate": "2017-10-16T23:59:59Z",
+		 "lastFailedLoginDate": "2017-10-16T23:59:59Z",
+		 "failedLoginCounter": 1,
+		 "blockchainWallet": "$2a$05$RyedoJxf49DXe/BoDsCXNuoKY4DuSOElJL62LMAMg18Z.gW59uTaG"
+	},
+	 "sendNotifications": {
+		 "viaEmail": true,
+		 "viaSMS": false,
+		 "onVoucherRedeemed": true,
+		 "onVoucherViewed": true,
+		 "onVoucherTransfered": false,
+		 "onPassTransfered": true
+	},
+	 "consents": [
+		{
+			 "consentName": "Terms and Conditions",
+			 "consentKey": "TERMSCOND",
+			 "documentVersion": "1.0 / 2018-05-16",
+			 "documentURL": "https://media.vourity.com/documents/tcv1.pdf",
+			 "approvalDate": "2017-10-16T14:05:36Z"
+		},
+		{
+			 "consentName": "Send marketing e-mails",
+			 "consentKey": "MARKETEMAIL",
+			 "documentVersion": 2.3,
+			 "documentURL": "None",
+			 "approvalDate": "2017-10-16T14:05:36Z"
+		}
+	],
+	 "walletAmount": 123456789.00,
+	 "currency": "EUR",
+	 "walletAmountExpiryDate": "2017-10-16T14:05:36Z",
+	 "defaultPassID": "56758cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "languageCode": "sv-SE",
+	 "languageName": "Swedish",
+	 "countryCode": "SE",
+	 "pspName": "Stripe",
+	 "pspAccount": "sdkjhdqw873djqw",
+	 "pspToken": "AbvZlrtet27kcB",
+	 "pspSource": "src_18eYalAHEMiOZZp1l9ZTjSU0",
+	 "isVerifiedEmail": true,
+	 "isverifiedMobilePhone": true,
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

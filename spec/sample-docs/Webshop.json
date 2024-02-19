@@ -1,0 +1,93 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "webshop",
+	"ownerMerchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	"isVisible": true,
+	"isOpenForSale": true,
+	"notOpenForSaleText": "The shop is closed. Plese come back later",
+	"isInMaintenanceMode": false,
+	"maintenanceModeText": "Sorry for the inconvenience we are doing some maintenance on our shop. Come back soon.",
+	"webShopToken": "6915bc1a4893dc1767ec0025284366884ccaefa46a38e6cc57f52c7aa38fe556146084378aa22358e847350893b563ad89b095be568ed60e9623d085dba22b1a",
+	"webShopTitle": "Starstruck Coffee Voucher Shop",
+	"webShopDescription": "Here you can select your coffee gift-cards and send them to friends and family.",
+	"logoImageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Vourity_Logo_transperant.png",
+	"mainImageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Coffee_500px.jpg",
+	"webShopContact": {
+		"contactCompany": "Relaxing SPA",
+		"contactPhone": "+46213123213",
+		"contactEmail": "+sales@company.com",
+		"contactStreet1": "Megastreet 5",
+		"contactStreet2": "PO Box 25",
+		"contactZipCode": "IN-12333",
+		"contactCity": "Bangalore",
+		"contactState": "The big one",
+		"contactCountry": "India"
+	},
+	"products": [
+		{
+			"productID": "a29b2d6d-917a-4be8-b539-c006ef8dd861",
+			"productEAN": "1234567890ADFFF",
+			"productGCN": "1234567890ADFFF234324",
+			"productName": "Coffee card - 10",
+			"productDescription": "Get 10 cups of coffee, only pay for 9.",
+			"conditions": "Only for Coffee lovers.",
+			"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Coffee_500px.jpg",
+			"voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			"isEnabledForSale": true,
+			"issuer": {
+				"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				"merchantName": "Starstruck Coffee"
+			},
+			"salesPrice": 11.00,
+			"vatPercent": 25.00,
+			"vatAmount": 2.35,
+			"currency": "SEK",
+			"salesPeriodStart": "2017-10-16T00:00:00Z",
+			"salesPeriodEnd": "2018-10-16T00:00:00Z"
+		},
+		{
+			"productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"productEAN": "1234567890ADFFF",
+			"productGCN": "1234567890ADFFF234324",
+			"productName": "Lunch at the Grand",
+			"productDescription": "Some description of the Voucher, from product description",
+			"conditions": "All you can eat buffet only between 14:00 - 17:00",
+			"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/SPA.jpg",
+			"voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			"isEnabledForSale": true,
+			"issuer": {
+				"merchantID": "589bd6b3-b6b0-4984-b615-a8643c0f14c6",
+				"merchantName": "Mega city"
+			},
+			"salesPrice": 35.00,
+			"vatPercent": 25.00,
+			"vatAmount": 4.69,
+			"currency": "SEK",
+			"salesPeriodStart": "2017-10-16T00:00:00Z",
+			"salesPeriodEnd": "2018-10-16T00:00:00Z"
+		},
+		{
+			"productID": "02ed425e-5575-4905-bd6d-62ab0045e781",
+			"productEAN": "1234567890ADFFF",
+			"productGCN": "1234567890ADFFF234324",
+			"productName": "The blue product (Bundle)",
+			"productDescription": "Some description of the Product",
+			"conditions": "Some text about special conditions in text about how to use the voucher",
+			"imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/Flowers_Rose.jpg",
+			"voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			"isEnabledForSale": true,
+			"issuer": {
+				"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				"merchantName": "Vasamuseet"
+			},
+			"salesPrice": 11.00,
+			"vatPercent": 25.00,
+			"vatAmount": 2.35,
+			"currency": "SEK",
+			"salesPeriodStart": "2017-10-16T00:00:00Z",
+			"salesPeriodEnd": "2017-10-16T00:00:00Z"
+		}
+	],
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

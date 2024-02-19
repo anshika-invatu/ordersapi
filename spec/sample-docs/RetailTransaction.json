@@ -1,0 +1,188 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "retailTransaction",
+	 "partitionKey": "Same as _id",
+	 "retailTransactionDate": "2020-10-16T14:05:36Z",
+	 "retailTransactionStatusCode": "Pending,Paid,Canceled,Failed,Refunded",
+	 "retailTransactionStatusText": {
+		 "sv-SE": {
+			 "text": "Betald"
+		},
+		 "en-US": {
+			 "text": "Paid"
+		}
+	},
+	 "retailTransactionTypeID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	 "retailTransactionTypeCode": "sale,refund,exchange,redemption",
+	 "itemText": "Fanta bottle 33cl",
+	 "pspType": "creditcard",
+	 "pspTypeName": {
+		 "sv-SE": {
+			 "text": "Kreditkort"
+		},
+		 "en-US": {
+			 "text": "Credit card"
+		}
+	},
+	 "pspTypeIconURL": "https://vourityblob1.blob.core.windows.net/icons/icon_vending.svg",
+	 "sequenceNumber": 123456788,
+	 "totalAmountInclVat": 123456789.00,
+	 "totalVatAmount": 2.35,
+	 "currency": "SEK",
+	 "vatSummary": [
+		{
+			 "vatClass": "SEVAT1",
+			 "vatPercent": 25,
+			 "vatAmount": 1000
+		},
+		{
+			 "vatClass": "SEVAT2",
+			 "vatPercent": 12,
+			 "vatAmount": 2000
+		},
+		{
+			 "vatClass": "SEVAT3",
+			 "vatPercent": 6,
+			 "vatAmount": 3000
+		}
+	],
+	 "debitTotal": 1234.98,
+	 "creditTotal": 78.00,
+	 "amountDiff": 0,
+	 "walletID": "e845922e-6dd5-494c-b539-9325fdff937e",
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "merchantName": "Vasamuseet",
+	 "merchantCompanyRegistrationNumber": "12231323-234234",
+	 "merchantVatNumber": "SE1239812391273-33AAJ",
+	 "merchantLogoImageURL": "https://media.vourity.com/vourity_logo.png",
+	 "businessUnitID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "businessUnitName": "Gröna lund",
+	 "pointOfServiceID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "pointOfServiceName": "Kassa 1",
+	 "siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "siteName": "Stockholm Office",
+	 "zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "zoneName": "Zone Upper floor",
+	 "lineItems": [
+		{
+			 "lineItemTypeCode": "sales,return,payment,vat,rounding,voucher,discount,loyaltyReward,miscFee,information",
+			 "seqNo": 1,
+			 "lineText": "Fanta bottle 33cl",
+			 "productClass": "VendingPurchase",
+			 "productClassName": "Vending Purchase",
+			 "quantity": 1,
+			 "pricePerUnit": 12334.45,
+			 "unitCode": "kWh",
+			 "unitSymbol": "kWh",
+			 "unitName": {
+				 "sv-SE": {
+					 "text": "Name of the unit in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the unit in some language"
+				}
+			},
+			 "amount": 1213123,
+			 "debit": 1234.99,
+			 "credit": 0,
+			 "vatClass": "SEVAT1",
+			 "vatAmount": 33434,
+			 "vatPercent": 25,
+			 "sales": {
+				 "productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+				 "productName": {
+					 "sv-SE": {
+						 "text": "html encode ??? This is the text in some language"
+					},
+					 "en-US": {
+						 "text": "This is the text in some language"
+					}
+				},
+				 "productImageURL": "http://media.vourity.com/logoburger.png",
+				 "productTypeID": "d925922e-6dd5-494c-b539-9325fdff937e",
+				 "productTypeCode": "giftcard,ticket,coupon,pass,product,service",
+				 "productTypeName": {
+					 "sv-SE": {
+						 "text": "Name of the template in some language"
+					},
+					 "en-US": {
+						 "text": "Name of the template in some language"
+					}
+				},
+				 "productTypeIconURL": "https://media.vourity.com/product.svg",
+				 "productCategoryID": "d925922e-6dd5-494c-b539-9325fdff937e",
+				 "productCategoryName": {
+					 "sv-SE": {
+						 "text": "Name of the template in some language"
+					},
+					 "en-US": {
+						 "text": "Name of the template in some language"
+					}
+				},
+				 "productCategoryIconURL": "https://media.vourity.com/product.svg",
+				 "issuer": {
+					 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+					 "merchantName": "Vasamuseet"
+				},
+				 "priceType": "fixedPrice,pricePerUnit,priceGroup,freeOfCharge",
+				 "priceGroupID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				 "priceGroupName": "Basic prices"
+			},
+			 "usageRecord": {
+				 "componentID": "d925922e-6dd5-494c-b539-9325fdff937e",
+				 "componentName": {
+					 "sv-SE": {
+						 "text": "html encode ??? This is the text in some language"
+					},
+					 "en-US": {
+						 "text": "This is the text in some language"
+					}
+				},
+				 "volume": 12333,
+				 "unitCode": "litre",
+				 "usageStartDate": "2020-10-16T14:05:36Z",
+				 "usageStopDate": "2020-10-16T15:18:12Z",
+				 "binID": "A101"
+			}
+		},
+		{
+			 "lineItemTypeCode": "payment",
+			 "seqNo": 2,
+			 "lineText": "Creditcard VISA",
+			 "productClass": "CreditcardPayment",
+			 "productClassName": "Creditcard payment",
+			 "amount": 100,
+			 "debit": 0,
+			 "credit": 100,
+			 "vatClass": "SEVAT0",
+			 "vatAmount": 0,
+			 "vatPercent": 0,
+			 "payment": {
+				 "paymentTransactionID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+				 "paymentTransactionStatusCode": "Pending,Successful,Failed,Captured,Rejected,Refunded,Canceled",
+				 "paymentTypeCode": "swish,creditcard,customerAccount,voucher",
+				 "paymentProviderID": "d925922e-6dd5-494c-b539-9325fdff937e",
+				 "pspName": "Creditcard Stripe",
+				 "pspType": "creditcard"
+			}
+		},
+		{
+			 "lineItemTypeCode": "vat",
+			 "seqNo": 3,
+			 "lineText": "VAT 25%",
+			 "amount": 20,
+			 "debit": 0,
+			 "credit": 100,
+			 "vatClass": "SEVAT0",
+			 "vatPercent": 25
+		}
+	],
+	 "notes": [
+		{
+			 "noteID": 1,
+			 "note": "The customer is happy"
+		}
+	],
+	 "createdDate": "2020-10-16T14:05:36Z",
+	 "updatedDate": "2020-10-16T15:18:12Z"
+}

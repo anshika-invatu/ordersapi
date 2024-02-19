@@ -1,0 +1,80 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "users",
+	 "partitionKey": "df23sdf",
+	 "loginName": "ABC1234567-89",
+	 "password": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	 "salt": "456b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "email": "cool.person@vourity.com",
+	 "name": "Mark Hamil",
+	 "mobilePhone": "+4632131233",
+	 "country": "SE",
+	 "isEnabled": true,
+	 "isLocked": false,
+	 "isVerified": true,
+	 "merchants": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "userGroups": "",
+			 "roles": "",
+			 "businessUnitID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6"
+		},
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "userGroups": "",
+			 "roles": "",
+			 "businessUnitID": "23458cfa-063d-4f5c-be5d-b90cfb64d1d6"
+		}
+	],
+	 "consents": [
+		{
+			 "consentName": "Terms and Conditions",
+			 "consentKey": "TERMSCOND",
+			 "documentVersion": "1.0 / 2018-05-16",
+			 "documentURL": "https://media.vourity.com/documents/tcv1.pdf",
+			 "approvalDate": "2017-10-16T14:05:36Z",
+			 "isApproved": true
+		},
+		{
+			 "consentName": "Send marketing e-mails",
+			 "consentKey": "MARKETEMAIL",
+			 "documentVersion": 2.3,
+			 "documentURL": "None",
+			 "approvalDate": "2017-10-16T14:05:36Z",
+			 "isApproved": true
+		}
+	],
+	 "sendNotifications": {
+		 "viaEmail": true,
+		 "viaSMS": false,
+		 "viaPush": false,
+		 "onMerchantMemberRequest": true,
+		 "onMerchantMemberRemoval": true,
+		 "onProfileChanges": true,
+		 "onVourityNews": false,
+		 "onPayout": true,
+		 "onFailedTransaction": true,
+		 "onFailedPayout": true,
+		 "onSupportRequest": true
+	},
+	 "lastLoginDate": "2017-10-16T14:05:36Z",
+	 "lastFailedLoginDate": "2017-10-16T14:05:36Z",
+	 "languageCode": "sv-SE",
+	 "languageName": "Swedish",
+	 "merchantInvites": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "inviteExpiryDate": "2017-10-16T14:05:36Z"
+		},
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "inviteExpiryDate": "2017-10-16T14:05:36Z"
+		}
+	],
+	 "createdDate": "2017-10-16T14:05:36Z",
+	 "updatedDate": "2017-10-16T15:18:12Z"
+}

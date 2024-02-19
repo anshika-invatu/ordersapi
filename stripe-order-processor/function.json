@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "event",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "vourity-topic-inbox-stripe",
+      "subscriptionName": "VourityFunctionInboxStripe",
+      "connection": "AZURE_BUS_CONNECTION_STRING"
+    }
+  ]
+}

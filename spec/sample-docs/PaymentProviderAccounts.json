@@ -1,0 +1,40 @@
+{
+	 "_id": "451fdac7-2257-499c-b15f-05a7e8599466",
+	 "docType": "paymentProviderAccounts",
+	 "partitionKey": "Same as _id",
+	 "paymentProviderAccountName": "Name of the account",
+	 "paymentProviderAccountDescription": "Some description",
+	 "merchantID": "584b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "isEnabled": true,
+	 "country": "SE",
+	 "currency": "SEK",
+	 "paymentProviderID": "d925922e-6dd5-494c-b539-9325fdff937e",
+	 "pspName": "Swish",
+	 "pspType": "swish",
+	 "pspLogoImageURL": "https://media.vourity.com/swish.png",
+	 "settings": {
+		 "swish": {
+			 "swishNumber": 123456789
+		},
+		 "apiKey": "sdfr434r34wrwerwerwe"
+	},
+	 "createdDate": "2018-08-06T14:05:36Z",
+	 "updatedDate": "2018-08-06T15:18:12Z"
+}

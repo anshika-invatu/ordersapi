@@ -1,0 +1,123 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "vouchers",
+	"passToken": "$2a$05$4zfb41hrvgmurdvmjmhlze7wmls7xspsluzhyl6wjq/r77f2daps6",
+	"voucherToken": "e845922e-6dd5-494c-b539-9325fdff937e",
+	"voucherTitle": "The title of the Voucher, from product name",
+	"voucherDescription": "Some description of the Voucher, from product description",
+	"isRedeemed": false,
+	"isExpired": false,
+	"isCanceled": false,
+	"redemptionCounter": 0,
+	"issuer": {
+		"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+		"merchantName": "Vasamuseet"
+	},
+	"productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+	"orderID": "2d3b022d-0911-43e8-a8b0-398ae950d981",
+	"orderDate": "2017-10-16T14:05:36Z",
+	"salesPrice": 11.36,
+	"vatPercent": 25.00,
+	"vatAmount": 100.56,
+	"currency": "SEK",
+	"settlementList": {
+		"settlementCurrency": "VOC",
+		"totalSettlementAmount": 12.00,
+		"totalSettlementAmountLeft": 127.00,
+		"settleFullAmountOnFirstRedemption": false,
+		"settlementAmountPerRedemption": 11.36,
+		"settlementTransactions": [
+			{
+				"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"merchantName": "Parks and Resorts",
+				"merchantType": "collector",
+				"settlementStatus": "pending,successful,failed",
+				"settlementTransactionID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"settlementAmount": 25.00
+			},
+			{
+				"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"merchantName": "Tourist Shop",
+				"merchantType": "reseller",
+				"settlementStatus": "pending,successful,failed",
+				"settlementTransactionID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"settlementAmount": 25.00
+			},
+			{
+				"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"merchantName": "Vourity AB",
+				"merchantType": "vourity",
+				"settlementStatus": "pending,successful,failed",
+				"settlementTransactionID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+				"settlementAmount": 25.00
+			}
+		]
+	},
+	"collectorLimitationsMerchants": [
+		{
+			"merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"merchantName": "Parks and Resorts"
+		}
+	],
+	"collectorLimitationsBusinessUnits": [
+		{
+			"businessUnitID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Seven Eleven 123"
+		},
+		{
+			"businessUnitID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"businessUnitName": "Pressbyrån"
+		}
+	],
+	"collectorLimitationsPointOfService": [
+		{
+			"pointOfServiceID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Seven Eleven 123"
+		},
+		{
+			"pointOfServiceID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			"pointOfServiceName": "Pressbyrån"
+		}
+	],
+	"posProductLimitations": [
+		{
+			"posProductSKU": "ABC1234567-89",
+			"posProductEAN": "1234567890ADFFF",
+			"productGCN": "1234567890ADFFF234324",
+			"posProductName": "The blue product",
+			"posProductDescription": "Description of the product"
+		}
+	],
+	"redemptionRules": {
+		"redemptionCodeIsRequired": false,
+		"salesPersonCodeIsRequired": true,
+		"redemptionCodes": [
+			"$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6"
+		]
+	},
+	"voucherValue": {
+		"valueType": "monetary,discount,exchange",
+		"spend": 1,
+		"redemptionsTotal": 1,
+		"redemptionsLeft": 1,
+		"fixedAmount": 11.36,
+		"currency": "SEK",
+		"ratioPercent": 25.00
+	},
+	"validPeriod": {
+		"validFromDate": "2017-10-16T00:00:00Z",
+		"validToDate": "2017-10-16T23:59:59Z",
+		"validDaysOfWeek": "Mo,Tu,We,Th,Fr,Sa,Su",
+		"validFromTime": "08:00:00",
+		"validToTime": "14:00:00"
+	},
+	"conditions": "Some text about special conditions in text about how to use the voucher",
+	"campaignCode": "Some magic - code 1234",
+	"imageURL": "http://media.vourity.com/logoburger.png",
+	"isLocked": false,
+	"voucherPinCode": "$2a$05$4zfb41hRVgMURdvMjmhLze7Wmls7XsPsLuzhYl6wjQ/r77F2daPS6",
+	"voucherSequenceNumber": 123456788,
+	"isRefundAllowed": true,
+	"createdDate": "2017-10-16T14:05:36Z",
+	"updatedDate": "2017-10-16T15:18:12Z"
+}

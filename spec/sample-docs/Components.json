@@ -1,0 +1,258 @@
+{
+	"_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"docType": "components",
+	"partitionKey": "Same as the _id",
+	"parentComponentID": "33358cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	"pointOfServiceID": "6380e2d1-c859-4dbe-9035-2a27bb333cf5",
+	"alternateID": "A101",
+	"componentName": {
+		"sv-SE": {
+			"text": "html encode ??? This is the text in some language"
+		},
+		"en-US": {
+			"text": "This is the text in some language"
+		}
+	},
+	"componentDescription": {
+		"sv-SE": {
+			"text": "html encode ??? This is the text in some language"
+		},
+		"en-US": {
+			"text": "This is the text in some language"
+		}
+	},
+	"componentTypeID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+	"componentTypeCode": "bin,evse,connector,relay,input,qrscanner,sensor,mdbcashless",
+	"componentTypeName": {
+		"sv-SE": {
+			"text": "html encode ??? This is the text in some language"
+		},
+		"en-US": {
+			"text": "This is the text in some language"
+		}
+	},
+	"componentRoleCode": "redemption,access,checkin,checkout,delivery,collect,return",
+	"componentCode": "evse1",
+	"iconImageURL": "https://media.vourity.com/vendingbin.png",
+	"statusCode": "available",
+	"statusReason": "Charging ended",
+	"statusUpdatedDate": "2020-04-14T15:18:12Z",
+	"connectionStateCode": "connected",
+	"connectionStateReason": "Device rebooted",
+	"connectionStateUpdatedDate": "2020-04-14T15:18:12Z",
+	"conditionCode": "clean",
+	"conditionUpdatedDate": "2020-04-14T15:18:12Z",
+	"accessDirection": "in,out",
+	"isEnabledForSale": true,
+	"webShopID": "67c1938e-88a1-4141-b0bc-4c280a7379b6",
+	"webShopName": "Shop 1",
+	"isWheelchairAccessible": true,
+	"evse": {
+		"evseNumber": 1,
+		"evseID": "abc123"
+	},
+	"connector": {
+		"connectorNumber": 1,
+		"connectorTypeCode": "type2,ccs,chademo",
+		"connectorFormatCode": "socket,cable"
+	},
+	"bin": {
+		"propertyCode": "actualFillLevel_bin_A101",
+		"binID": "A101",
+		"actualFillLevel": 125,
+		"actualFillLevelPercent": 73,
+		"targetFillLevel": 218,
+		"fillLevelunit": "bottles",
+		"minFillLevel": 0,
+		"maxFillLevel": 500,
+		"orderMoreLowLimit": 20,
+		"objectTypeID": "5560e2d1-c859-4dbe-9035-2a27bb333cf5",
+		"objectTypeCode": "product,resource,order,shipment",
+		"objectID": "4430e2d1-c859-4dbe-9035-2a27bb333cf5",
+		"objectName": {
+			"sv-SE": {
+				"text": "html encode ??? This is the text in some language"
+			},
+			"en-US": {
+				"text": "This is the text in some language"
+			}
+		},
+		"objectIconImageURL": "https://media.vourity.com/cocacola.png",
+		"objectImageURL": "https://media.vourity.com/cocacolabig.png",
+		"bestBeforeDate": "2020-04-14T15:18:12Z",
+		"volume": 100.5,
+		"volumeUnit": "cm3",
+		"width": 100,
+		"widthUnit": "cm",
+		"length": 200,
+		"lengthUnit": "cm",
+		"depth": 30,
+		"depthUnit": "cm",
+		"weightLimit": 30,
+		"weightLimitUnit": "Kg",
+		"isHeatedStorage": false,
+		"isColdStorage": true,
+		"isFreezeStorage": false,
+		"isWheelchairAccessible": true,
+		"lastFillDate": "2020-04-14T15:18:12Z"
+	},
+	"properties": {
+		"temperature": {
+			"propertyCode": "insideTemperature",
+			"actualValue": "The value",
+			"targetValue": "The value",
+			"propertyUnit": "C",
+			"isReadOnly": true,
+			"dataType": "decimal,integer,string,boolean,datetime,uri",
+			"minValue": 0,
+			"maxValue": 250,
+			"propertyName": {
+				"sv-SE": {
+					"text": "html encode ??? This is the text in some language"
+				},
+				"en-US": {
+					"text": "This is the text in some language"
+				}
+			},
+			"iconImageURL": "https://media.vourity.com/vendingbin.png"
+		},
+		"humidity": {
+			"propertyCode": "insideHumidity",
+			"actualValue": "The value",
+			"targetValue": "The value",
+			"propertyUnit": "percent",
+			"isReadOnly": false,
+			"dataType": "decimal",
+			"minValue": 0,
+			"maxValue": 100,
+			"propertyName": {
+				"sv-SE": {
+					"text": "html encode ??? This is the text in some language"
+				},
+				"en-US": {
+					"text": "This is the text in some language"
+				}
+			},
+			"iconImageURL": "https://media.vourity.com/vendingbin.png"
+		},
+		"DI3": {
+			"propertyCode": "DI3",
+			"actualValue": 1,
+			"targetValue": 1,
+			"propertyUnit": "onoff",
+			"isReadOnly": false,
+			"dataType": "integer",
+			"minValue": 0,
+			"maxValue": 1,
+			"propertyName": {
+				"sv-SE": {
+					"text": "html encode ??? This is the text in some language"
+				},
+				"en-US": {
+					"text": "This is the text in some language"
+				}
+			},
+			"iconImageURL": "https://media.vourity.com/vendingbin.png"
+		}
+	},
+	"commands": {
+		"startCharging": {
+			"propertyCode": "connector2",
+			"commandMode": "on,off,pulses,toggle,set",
+			"commandValue": 3,
+			"commandValueUnit": "kW,pulses,liters,minutes",
+			"commandDurationTime": 500,
+			"commandDurationTimeUnit": "milliseconds",
+			"isDefault": true,
+			"isPublic": true,
+			"isEnabled": true,
+			"dataType": "decimal,integer,string,boolean,datetime,uri",
+			"minValue": 0,
+			"maxValue": 250,
+			"commandName": {
+				"sv-SE": {
+					"text": "html encode ??? This is the text in some language"
+				},
+				"en-US": {
+					"text": "This is the text in some language"
+				}
+			},
+			"iconImageURL": "https://media.vourity.com/vendingbin.png"
+		},
+		"openDoor": {
+			"propertyCode": "DO1",
+			"commandMode": "on,off,pulses,toggle,set",
+			"commandValue": 1,
+			"commandValueUnit": "kW,pulses,liters,minutes",
+			"commandDurationTime": 1500,
+			"commandDurationTimeUnit": "seconds",
+			"isDefault": false,
+			"isPublic": true,
+			"isEnabled": true,
+			"dataType": "decimal,integer,string,boolean,datetime,uri",
+			"minValue": 0,
+			"maxValue": 100,
+			"commandName": {
+				"sv-SE": {
+					"text": "html encode ??? This is the text in some language"
+				},
+				"en-US": {
+					"text": "This is the text in some language"
+				}
+			},
+			"iconImageURL": "https://media.vourity.com/vendingbin.png"
+		}
+	},
+	"texts": {
+		"publicLabel": {
+			"sv-SE": {
+				"text": "html encode ??? This is the text in some language"
+			},
+			"en-US": {
+				"text": "This is the text in some language"
+			}
+		}
+	},
+	"tags": {
+		"sometag": 123,
+		"deploymentLocation": {
+			"building": 43,
+			"floor": 1
+		}
+	},
+	"metaData": {
+		"serialNumber": "dfsdfsd",
+		"firmwareVersion": "werewr23234"
+	},
+	"defaultProduct": {
+		"productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+		"productName": "The blue product"
+	},
+	"products": [
+		{
+			"productID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			"productName": "The blue product",
+			"productDescription": "Some description of the Product",
+			"priority": 1,
+			"imageURL": "https://media.vourity.com/blueburger.png",
+			"issuer": {
+				"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				"merchantName": "Vasamuseet"
+			}
+		},
+		{
+			"productID": "c825922e-6dd5-494c-b539-9325fdff937e",
+			"productName": "The green product",
+			"productDescription": "Some description of the Product",
+			"priority": 2,
+			"imageURL": "https://media.vourity.com/greenburger.png",
+			"isEnabledForSale": true,
+			"issuer": {
+				"merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				"merchantName": "Vasamuseet"
+			}
+		}
+	],
+	"createdDate": "2021-04-02T14:05:36Z",
+	"updatedDate": "2021-04-02T15:18:12Z"
+}

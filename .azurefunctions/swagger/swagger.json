@@ -1,0 +1,307 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Vourity - Orders API",
+      "version": "1.0.0"
+    },
+    "host": "ordersapi.vourity.com",
+    "basePath": "/api/v1",
+    "schemes": [
+      "https"
+    ],
+    "paths": {
+      "/orders": {
+        "post": {
+          "operationId": "CreateOrder",
+          "description": "Create order",
+          "summary": "Create order",
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Orders"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/orders/{id}": {
+        "get": {
+          "operationId": "Getorder",
+          "description": "Retrieve order by id",
+          "summary": "Returns order by id",
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "ID of the order document",
+              "x-example": "8d35e36d-c0be-4f2b-b32b-cd58892d7266"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success operation",
+              "schema": {
+                "$ref": "#/definitions/Orders"
+              }
+            },
+            "404": {
+              "description": "The specified order documentId doesn't exist or is invalid"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "patch": {
+          "operationId": "Updateorder",
+          "description": "Update order properties by id",
+          "summary": "Update order by id",
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "ID of the order document",
+              "x-example": "8d35e36d-c0be-4f2b-b32b-cd58892d7266"
+            },
+            {
+              "in": "body",
+              "name": "body",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Orders"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            },
+            "404": {
+              "description": "The specified order documentId doesn't exist or is invalid"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "delete": {
+          "operationId": "Deleteorder",
+          "description": "Delete order by id",
+          "summary": "Delete order by id",
+          "produces": [
+            "application/json"
+          ],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "ID of the order document",
+              "x-example": "8d35e36d-c0be-4f2b-b32b-cd58892d7266"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            },
+            "404": {
+              "description": "The specified order documentId doesn't exist or is invalid"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      }
+    },
+    "definitions": {
+      "Orders": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "docType": {
+            "type": "string"
+          },
+          "orderID": {
+            "type": "string"
+          },
+          "orderDate": {
+            "type": "string"
+          },
+          "orderStatus": {
+            "type": "string"
+          },
+          "transactionID": {
+            "type": "string"
+          },
+          "transactionStatus": {
+            "type": "string"
+          },
+          "amountPaid": {
+            "type": "number"
+          },
+          "vatAmount": {
+            "type": "number"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "walletID": {
+            "type": "string"
+          },
+          "passIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sellerMerchantID": {
+            "type": "string"
+          },
+          "sellerMerchantName": {
+            "type": "string"
+          },
+          "sellerBusinessUnitID": {
+            "type": "string"
+          },
+          "sellerBusinessUnitName": {
+            "type": "string"
+          },
+          "sellerPointOfServiceID": {
+            "type": "string"
+          },
+          "sellerPointOfServiceName": {
+            "type": "string"
+          },
+          "webShopID": {
+            "type": "string"
+          },
+          "webShopName": {
+            "type": "string"
+          },
+          "customerEmail": {
+            "type": "string"
+          },
+          "receiverEmail": {
+            "type": "string"
+          },
+          "receiverText": {
+            "type": "string"
+          },
+          "products": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "productID": {
+                  "type": "string"
+                },
+                "productEAN": {
+                  "type": "string"
+                },
+                "productGCN": {
+                  "type": "string"
+                },
+                "productName": {
+                  "type": "string"
+                },
+                "voucherType": {
+                  "type": "string"
+                },
+                "issuer": {
+                  "required": [
+                    "merchantID",
+                    "merchantName"
+                  ],
+                  "properties": {
+                    "merchantID": {
+                      "type": "string"
+                    },
+                    "merchantName": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "salesPrice": {
+                  "type": "number"
+                },
+                "vatPercent": {
+                  "type": "number"
+                },
+                "vatAmount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "notes": {
+            "type": "string"
+          },
+          "createdDate": {
+            "type": "string"
+          },
+          "updatedDate": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securityDefinitions": {
+      "apikeyQuery": {
+        "type": "apiKey",
+        "name": "x-functions-key",
+        "in": "header"
+      }
+    }
+  }

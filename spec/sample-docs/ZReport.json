@@ -1,0 +1,233 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "zreport",
+	 "partitionKey": "Same as pointOfServiceID",
+	 "isOpen": true,
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "merchantName": "Vasamuseet",
+	 "merchantCompanyRegistrationNumber": "12231323-234234",
+	 "merchantVatNumber": "SE1239812391273-33AAJ",
+	 "merchantLogoImageURL": "https://media.vourity.com/vourity_logo.png",
+	 "businessUnitID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "businessUnitName": "Gröna lund",
+	 "pointOfServiceID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "pointOfServiceName": "Kassa 1",
+	 "siteID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "siteName": "Stockholm Office",
+	 "zoneID": "875b917c-9971-4ec4-89b5-0ab80f2607ae",
+	 "zoneName": "Zone Upper floor",
+	 "reportStartDate": "2020-10-16T00:00:00Z",
+	 "reportEndDate": "2020-10-16T24:00:0Z",
+	 "reportNumber": 123456788,
+	 "numberOfRetailTransactions": 123456788,
+	 "openingAmount": 0,
+	 "totalAmountInclVat": 123456789.00,
+	 "totalVatAmount": 2.35,
+	 "currency": "SEK",
+	 "openingUserID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "isOpenedAutomatically": true,
+	 "closingUserID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "isClosedAutomatically": true,
+	 "vatSummary": [
+		{
+			 "vatClass": "SEVAT1",
+			 "vatPercent": 25,
+			 "vatAmount": 1000
+		},
+		{
+			 "vatClass": "SEVAT2",
+			 "vatPercent": 12,
+			 "vatAmount": 2000
+		},
+		{
+			 "vatClass": "SEVAT3",
+			 "vatPercent": 6,
+			 "vatAmount": 3000
+		}
+	],
+	 "paymentTypeSummary": [
+		{
+			 "paymentTypeCode": "swish",
+			 "amount": 123.45,
+			 "transactions": 2,
+			 "paymentTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "paymentTypeCode": "creditcard",
+			 "amount": 2563.83,
+			 "transactions": 24,
+			 "paymentTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "paymentTypeCode": "vouchers",
+			 "amount": 2,
+			 "transactions": 4,
+			 "paymentTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		}
+	],
+	 "productTypeSummary": [
+		{
+			 "productTypeCode": "product",
+			 "amount": 123.45,
+			 "transactions": 2,
+			 "productTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "productTypeCode": "service",
+			 "amount": 2563.83,
+			 "transactions": 24,
+			 "productTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "productTypeCode": "vouchers",
+			 "amount": 2,
+			 "transactions": 4,
+			 "productTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		}
+	],
+	 "productCategorySummary": [
+		{
+			 "productCategoryID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productCategoryName": {
+				 "sv-SE": {
+					 "text": "Name of the category in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the category in some language"
+				}
+			},
+			 "amount": 123.45,
+			 "transactions": 2
+		},
+		{
+			 "productCategoryID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productCategoryName": {
+				 "sv-SE": {
+					 "text": "Name of the category in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the category in some language"
+				}
+			},
+			 "amount": 2563.83,
+			 "transactions": 24
+		},
+		{
+			 "productCategoryID": "d925922e-6dd5-494c-b539-9325fdff937e",
+			 "productCategoryName": {
+				 "sv-SE": {
+					 "text": "Name of the category in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the category in some language"
+				}
+			},
+			 "amount": 2,
+			 "transactions": 4
+		}
+	],
+	 "lineItemSummary": [
+		{
+			 "lineItemTypeCode": "sales",
+			 "amount": 123.45,
+			 "transactions": 2,
+			 "lineItemTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "lineItemTypeCode": "return",
+			 "amount": 2563.83,
+			 "transactions": 24,
+			 "lineItemTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		},
+		{
+			 "lineItemTypeCode": "discount",
+			 "amount": 2,
+			 "transactions": 4,
+			 "lineItemTypeName": {
+				 "sv-SE": {
+					 "text": "Name of the payment type in some language"
+				},
+				 "en-US": {
+					 "text": "Name of the payment type in some language"
+				}
+			}
+		}
+	],
+	 "retailTransactions": [
+		{
+			 "retailTransactionID": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "lineItemTypeCode": "sales,return,payment,vat,rounding,voucher,discount,loyaltyReward,miscFee,information",
+			 "lineText": "Fanta bottle 33cl"
+		},
+		{
+			 "retailTransactionID": "2cc58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+			 "lineItemTypeCode": "sales,return,payment,vat,rounding,voucher,discount,loyaltyReward,miscFee,information",
+			 "lineText": "Coca cola bottle 33cl"
+		}
+	],
+	 "posEvents": [
+		{
+			 "eventSeqNo": 1,
+			 "eventText": "POS Opened",
+			 "eventDate": "2020-10-16T14:05:36Z"
+		}
+	],
+	 "createdDate": "2020-10-16T14:05:36Z",
+	 "updatedDate": "2020-10-16T15:18:12Z"
+}

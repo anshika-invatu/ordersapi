@@ -1,0 +1,41 @@
+{
+	 "_id": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "partitionKey": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "docType": "checkoutSession",
+	 "userSessionID": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "webShopToken": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "passToken": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "voucherToken": "86a873c6-9cb1-4efa-aec2-b413f0670917",
+	 "paymentProviderSessionID": "cs_test_9RsYyxFgSVGAbJIGKAClSJBnqe68gZxiWB0OgklHDeUptsM4sadE23s9",
+	 "paymentProvider": "Stripe",
+	 "customerEmail": "test@vourity.com",
+	 "receiverEmail": "hello@vourity.com",
+	 "receiverText": "Happy borthday",
+	 "receiverMobilePhone": "+46123466777",
+	 "products": [
+		{
+			 "productID": "a29b2d6d-917a-4be8-b539-c006ef8dd861",
+			 "productEAN": "1234567890ADFFF",
+			 "productGCN": "1234567890ADFFF234324",
+			 "productName": "The blue product",
+			 "productDescription": "Some description of the Product",
+			 "conditions": "Some text about special conditions in text about how to use the voucher",
+			 "imageURL": "https://vourityblob1.blob.core.windows.net/publicmedia/AfternoonTea.jpg",
+			 "voucherType": "giftvoucher,eventticket,coupon,destiationpass,membercard,exchangevoucher,loyaltypoints",
+			 "isEnabledForSale": true,
+			 "issuer": {
+				 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+				 "merchantName": "Vasamuseet"
+			},
+			 "salesPrice": 11.23,
+			 "vatPercent": 25,
+			 "vatAmount": 5.69,
+			 "currency": "SEK",
+			 "salesPeriodStart": "2020-11-26T10:15:15.487Z",
+			 "salesPeriodEnd": "2020-11-26T10:15:15.487Z",
+			 "quantity": 1
+		}
+	],
+	 "createdDate": "2020-11-26T10:15:15.487Z",
+	 "updatedDate": "2020-11-26T10:15:15.487Z"
+}

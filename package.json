@@ -1,0 +1,51 @@
+{
+    "name": "ordersapi",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "azure-functions-pack": "funcpack pack -c ./",
+        "lint": "eslint .",
+        "test": "mocha --exit --no-timeouts -r ./test.options.js */*.spec.js",
+        "test:watch": "chokidar '*/*.js' -c 'npm test'",
+        "test:debug": "mocha --inspect-brk=9230 --exit --no-timeouts -r ./test.options.js */*.spec.js",
+        "start:dev": "func host start -p 7076 -w node:debug=8076"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/vourity/ordersapi.git"
+    },
+    "keywords": [],
+    "author": "Harshith Kashyap <harshithkashyap@hotmail.com> (https://github.com/harshithkashyap)",
+    "homepage": "https://bitbucket.org/vourity/ordersapi#readme",
+    "dependencies": {
+        "@azure/service-bus": "^7.5.1",
+        "bluebird": "3.5.1",
+        "btoa": "^1.2.1",
+        "crypto": "^1.0.1",
+        "moment": "^2.29.4",
+        "mongodb": "^6.3.0",
+        "qrcode": "^1.5.0",
+        "request": "^2.88.2",
+        "request-promise": "4.2.2",
+        "requestretry": "^7.0.2",
+        "sort-objects-array": "^2.0.0",
+        "stripe": "^6.36.0",
+        "suncalc": "^1.9.0",
+        "uuid": "3.2.1",
+        "validator": "^13.7.0",
+        "winston-loggly-bulk": "^2.0.3"
+    },
+    "devDependencies": {
+        "azure-functions-pack": "1.0.0",
+        "chai": "4.1.2",
+        "chai-as-promised": "7.1.1",
+        "chokidar-cli": "^1.2.3",
+        "dotenv": "5.0.1",
+        "eslint": "4.19.1",
+        "mocha": "5.1.0"
+    },
+    "engines": {
+        "node": "8.9.3",
+        "npm": "5.6.0"
+    }
+}

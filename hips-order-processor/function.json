@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "vourity-topic-inbox-hips",
+      "subscriptionName": "VourityFunctionInboxHipsOrder",
+      "connection": "AZURE_BUS_CONNECTION_STRING"
+    }
+  ]
+}
